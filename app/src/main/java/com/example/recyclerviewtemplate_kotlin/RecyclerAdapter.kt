@@ -10,7 +10,7 @@ class ${NAME} : RecyclerView.Adapter<${Model}Adapter.${ViewHolder_NAME}>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ${ViewHolder_NAME} {
         val view = LayoutInflater.from(context).inflate(R.layout.${item_NAME}, parent, false)
-        return ViewHolder(view)
+        return ${ViewHolder_NAME}(view)
     }
 
     override fun getItemCount() = OJGName.size
