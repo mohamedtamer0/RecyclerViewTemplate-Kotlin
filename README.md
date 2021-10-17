@@ -26,15 +26,19 @@ dependencies {
     }
 ```
 .
+2- add the view binding support, go to your app build.gradle file and add the following lines:
+    buildFeatures {
+            viewBinding = true
+        }
+3- setup the view binding in your activity.
 
-2- create new class > $nameListAdapter >
-
+4- create new class > $nameListAdapter >
 and copy this code to your project.
 
 .
 
 
-3- If you want to install this template, always have it with you in Android Studio, follow the steps >>>
+5- If you want to install this template, always have it with you in Android Studio, follow the steps >>>
 
 Go to Settings -> Editor -> File and Code Templates -> Add -> write name the template -> 
 
